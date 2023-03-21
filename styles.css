@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header,
+footer {
+    background-color: rgb(167, 167, 255);
+    height: 10vh;
+}
+main {
+    background-color: rgb(206, 206, 255);
+    height: 80vh;
+}
+.card {
+    height: 30vh;
+    width: 33%;
+}
